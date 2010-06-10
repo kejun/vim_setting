@@ -177,6 +177,15 @@ snippet opt
 	<option value="${1:option}">${2:$1}</option>${3}
 snippet optt
 	<option>${1:option}</option>${2}
+snippet a 
+	<a href="${1}">${2}</a>${3}
+snippet p 
+	<p>${1}</p>${2}
+snippet ui:mod
+	<div id="${1}" class="${2:mod}">
+	  <div class="hd">${3}</div>
+	  <div class="bd">${4}</div>
+	</div>${5}
 snippet select
 	<select name="${1:some_name}" id="${2:$1}">
 		<option value="${3:option}">${4:$3}</option>

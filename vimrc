@@ -8,7 +8,11 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 set guifont=DejaVu_Sans_Mono:h16.00
+
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+let g:ctrlp_working_path_mode = 'c'
+set wildignore+=*.pyc,*.ptlc,*.so,*.swp,*.tmpl,*.bak,*.zip
+
 
 nmap <leader>e :NERDTreeToggle <cr>
 

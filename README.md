@@ -23,6 +23,9 @@
         $ git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
 
         set runtimepath^=~/.vim/bundle/ctrlp.vim
+        let g:ctrlp_working_path_mode = 'c'
+        set wildignore+=*.pyc,*.ptlc,*.so,*.swp,*.tmpl,*.bak,*.zip
+
 
  * 安装zencodeing: https://github.com/mattn/zencoding-vim
 
